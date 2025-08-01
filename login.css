@@ -97,3 +97,44 @@ body {
     border-radius: 10px;
 }
 
+@media (max-width: 768px) {
+  body {
+    height: auto;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 90%;
+    height: auto;
+    padding-bottom: 20px;
+  }
+
+  .imgbg {
+    width: 120%;
+  }
+
+  .title {
+    font-size: 18px;
+    margin-left: 2%;
+  }
+
+  .inp {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .btns {
+    font-size: 14px;
+  }
+
+  .images {
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .logfolder {
+    height: 300px;
+  }
+}
+
+
