@@ -1,0 +1,99 @@
+* {
+    font-family: Consolas, 'Lucida Console', monospace;
+    color: white;
+}
+
+body {
+    background: white;
+    width: 100%;
+    height: 100vh;
+}
+
+.imgbg {
+    position: absolute;
+    margin-top: -10px;
+    margin-left: -10px;
+    width: 105%;
+}
+
+.container {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 0, 0);
+    width: 50%;
+    height: 55%;
+    box-shadow: 0px 0px 25px black 1px gray;
+}
+
+.topbar {
+    position: absolute;
+    width: 100%;
+    height: 5%;
+    background: white;
+}
+
+.title {
+    color: black;
+    margin-top: 0.5%;
+    margin-left: 4%;
+    position: relative;
+}
+
+.logfolder {
+    position: relative;
+    width: 100%;
+    height: 95%;
+    top: 5%;
+    overflow-y: scroll;
+    box-shadow: 0px 0px 0px 1px gray;
+}
+
+.inp {
+    caret-color: lime;
+    color: lime;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    width: 50%;
+    font-family: Consolas, 'Lucida Console', monospace;
+    background: transparent;
+}
+
+.btns {
+    background: transparent;
+    font-family: Consolas, 'Lucida Console', monospace;
+    font-size: 15px;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+.btns:hover {
+    color: cyan;
+}
+
+.links {
+    text-decoration: none;
+    color: gray;
+}
+
+.links:hover {
+    color: cyan;
+}
+
+.lime-text {
+    color: lime;
+}
+
+.gray-text {
+    color: gray;
+}
+
+.images {
+    padding-left: 5px;
+    width: 40%;
+    border-radius: 10px;
+}
+
