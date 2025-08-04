@@ -136,13 +136,14 @@ body {
   }
 
   .images {
-    display: none; /* optional */
+    display: none; 
   }
 
   .imgbg {
     display: none;
   }
 }
+
 
 
 
