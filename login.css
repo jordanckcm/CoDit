@@ -5,8 +5,8 @@
 
 body {
     background: black;
-    width: 100%;
-    height: 100vh;
+    width: 99%;
+    height: 96.5vh;
 }
 
 .imgbg {
@@ -136,16 +136,10 @@ body {
   }
 
   .images {
-    display: none; 
+    display: none;
   }
 
   .imgbg {
     display: none;
   }
 }
-
-
-
-
-
-
